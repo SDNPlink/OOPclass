@@ -1,1 +1,53 @@
-(setup so I can push to github because making folders is hard)
+I don't know how to make a bulleted list in github (YET!!!) so try and make it through my formatting
+
+Dice class:
+  data:
+    sides, current_value
+  actions:
+    roll(): rolls the dice  
+    get_value(): returns the value of the rolled dice
+  relationships: Dice will be used by the player to roll during the game
+
+Player class:
+  data:
+    name, score, dice_set, player_stats
+  actions:
+    roll_dice(): sends a command from the player to the dice for it to be rolled
+    get_score(): retrieves the score that the player has
+    update_score(points): changes the score that the player has
+  relationships: Each player has a set of dice and participates in the game
+    Player HAS-A Dice
+
+Game class:
+  data:
+    players, rules, current_round
+  actions:
+    start_game(): starts a game (game running state? I guess?)
+    end_game(): ends the current game
+    get_winner(): returns who the winner is of the last game based on the rules
+  relationships: The Game class controls the players and their actions
+    Game HAS-A Player
+
+Knucklebones class:
+  data:
+    board, knucklebones_specific_rules
+  actions:
+    start_round(): starts a round of knucklebones
+    end_round(): ends a round of knucklebones
+    calculate_winner(): calculates the winner of a round of knucklebones (or potentially the game)
+  relationships: Inherits from Game, as Knucklebones is a game with specific rules and conditions
+    Knucklebones IS-A Game
+    Knuclebones HAS-A Player
+
+step 4 (Keywords and Feature List) stuff:
+
+neccessary      I  possible       I  wishful
+----------------I-----------------I--------------
+first name      I  high score     I  chat
+score           I  coins          I  messaging
+winner          I  leaderboard    I
+userid          I  teams          I
+last name       I  streak         I
+                I  team stats     I
+                I  levels         I
+                I  player stats   I
