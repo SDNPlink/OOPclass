@@ -97,9 +97,12 @@
 
 #### Inheritance
 
->
->
->
+> How sub/derived/child classes/objects gain extra properties and behaviors from their super/base/parent class/object
+>![inheritance](https://github.com/user-attachments/assets/3d08870f-d6ce-4597-a2d6-c0933e281b4b)
+```
+class Parent {};
+class Child : public Parent {};
+```
 
 #### Instance Variable
 
