@@ -83,9 +83,17 @@
 
 #### Constructors and Destructors
 
->
->
->
+> A Constructor initializes an object of a class, it is used to allocate memory for an object
+> A Destructor deallocates memory of an object, uses a '~'  
+>```
+>class Thing
+>{
+>  public:
+>    Thing()
+>      { }
+>    ~Thing()
+>      { }
+>};
 
 #### Design Patterns (e.g., Singleton, Factory, Observer)
 
@@ -169,15 +177,20 @@
 
 #### Instance Variable
 
->
->
->
+> A Non-Static Variable that is declared in a class outside of a method  
+> Does not need to be initialized, and can only be accessed by creating objects
+>```
+>class Person
+>{
+>  public:
+>    string name; //instance variable
+>};
+>```
 
 #### Member Variable
 
->
->
->
+> A Variable that is associated with a specific object, and is accessible for all its methods
+> Two types: Instance and Class
 
 #### Memory Management (Garbage Collection, Pointers)
 
@@ -297,6 +310,12 @@
 
 #### Virtual
 
->
->
->
+> A keyword that enables Runtime Polymorphism, and ensures that the correct function  
+> is called for an object, regardless of the reference used for the function call  
+> They are always defined in the base class and overridden in a derived class
+>```
+>class thing
+>{
+>  virtual void thingy();
+>};
+>```
