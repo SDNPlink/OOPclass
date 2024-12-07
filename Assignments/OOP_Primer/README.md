@@ -35,16 +35,19 @@
 #### Attributes / Properties
 
 > Defines a property of an object/element/file, usually consists of a name and value
+> 
 > ![attributes](https://github.com/user-attachments/assets/f8159b09-35ac-479d-bf63-23fe0a67e07e)
 
 #### Class Variable
 
 > A Variable defined in a class, and belongs to the class, only one instance that is shared across all instances of the class
+> 
 >![class variable](https://github.com/user-attachments/assets/58177bb5-4887-465d-ade1-0e9f2e507d53)
 
 #### Classes and Objects
 
 > Basic data types in C++, with classes holding their own data members and functions, while an object is a declared version of a class
+> 
 >![classesobjects](https://github.com/user-attachments/assets/f6512b88-027c-40be-80c7-adf45990ff62)
 >```
 >class person
@@ -66,6 +69,7 @@
 
 > Combining objects/classes to create more complex versions
 > Contrasts with Inheritance, is an "has-a" relationship
+> 
 >![Composition](https://github.com/user-attachments/assets/ba6bb648-c29e-4eb1-a73f-85165f5148fc)
 >```
 >class wheel
@@ -92,6 +96,7 @@
 #### Encapsulation
 
 > Combining similar data and functions into one class, usually limits access to its own objects
+> 
 >![encapsulation](https://github.com/user-attachments/assets/6eb8212e-0ba5-46a3-9941-df1bbdcc3b44)
 >```
 >class Square
@@ -115,6 +120,7 @@
 
 > A way to handle runtime errors and prevent program crashing
 > Uses the keywords try, throw, and catch
+> 
 >![exceptionhandling](https://github.com/user-attachments/assets/8dbf6b06-03b1-4d94-a7d1-78f4d6dbe66b)
 
 #### File I/O in OOP
@@ -148,6 +154,7 @@
 
 > How sub/derived/child classes/objects gain extra properties and behaviors from their super/base/parent class/object
 > Contrasts with Composition, is an "is-a" relationship
+> 
 >![inheritance](https://github.com/user-attachments/assets/3d08870f-d6ce-4597-a2d6-c0933e281b4b)
 >```
 >class Parent
@@ -210,6 +217,7 @@
 #### Multiple Inheritance
 
 > A sub/derived/child classes/objects that inherits from more than one super/base/parent class/object
+> 
 >![multiple inheritance](https://github.com/user-attachments/assets/faf2e265-ce78-4893-b214-b910e2ccfdb7)
 >```
 >class Parent1
