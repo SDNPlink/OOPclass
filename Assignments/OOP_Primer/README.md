@@ -7,9 +7,17 @@
 
 #### Abstract Classes and Interfaces
 
->
->
->
+> An interface describes the behavior or capabilities of a class without choosing a particular implementation of that class  
+> An Abstract Class is used to provide an appropriate base class from which other classes can inherit  
+> It is made by one of its function being a pure virtual function  
+> An Abstract Class cannot be used to instatiate objects and serves only as an interface
+>```
+>class shape
+>{
+>  public:
+>    virtual int getLength() = 0;
+>};
+>```
 
 #### Abstraction
 
@@ -61,9 +69,10 @@
 
 #### Collections and Iterators
 
->
->
->
+> Collections are data structures that store elements, such as vectors, arrays, lists, sets, and maps  
+> Iterators traverse the elements of a collection, they are independent of the type of collection
+> 
+>![collectioniterator](https://github.com/user-attachments/assets/083e08e9-6a94-487a-89d0-6367c4393f9e)
 
 #### Composition
 
