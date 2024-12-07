@@ -17,10 +17,10 @@
 
 #### Access Modifiers (Public, Private, Protected)
 
-> Allows what can be accessed outside of a class,
-> public - everything available to everyone
-> private - everything available to current class, or a friend class
-> protected - everything available to current class, its subclasses, or a friend class
+> Allows what can be accessed outside of a class,  
+> public - everything available to everyone  
+> private - everything available to current class, or a friend class  
+> protected - everything available to current class, its subclasses, or a friend class  
 > ```
 > class Test
 > {
@@ -67,7 +67,7 @@
 
 #### Composition
 
-> Combining objects/classes to create more complex versions
+> Combining objects/classes to create more complex versions  
 > Contrasts with Inheritance, is an "has-a" relationship
 > 
 >![Composition](https://github.com/user-attachments/assets/ba6bb648-c29e-4eb1-a73f-85165f5148fc)
@@ -118,7 +118,7 @@
 
 #### Exception Handling
 
-> A way to handle runtime errors and prevent program crashing
+> A way to handle runtime errors and prevent program crashing  
 > Uses the keywords try, throw, and catch
 > 
 >![exceptionhandling](https://github.com/user-attachments/assets/8dbf6b06-03b1-4d94-a7d1-78f4d6dbe66b)
@@ -152,7 +152,7 @@
 
 #### Inheritance
 
-> How sub/derived/child classes/objects gain extra properties and behaviors from their super/base/parent class/object
+> How sub/derived/child classes/objects gain extra properties and behaviors from their super/base/parent class/object  
 > Contrasts with Composition, is an "is-a" relationship
 > 
 >![inheritance](https://github.com/user-attachments/assets/3d08870f-d6ce-4597-a2d6-c0933e281b4b)
@@ -201,7 +201,7 @@
 
 #### Method
 
-> A function defined inside a class that operates on the data members of that class
+> A function defined inside a class that operates on the data members of that class  
 > can be a constructor or destructor
 >```
 >class Rectangle
@@ -255,7 +255,7 @@
 
 #### Operator Overloading
 
-> Defines how an operator can be applied to different situations (+, -, =, etc.)
+> Defines how an operator can be applied to different situations (+, -, =, etc.)  
 >ex: (cout << type;) would output 'type' but (int a = 3 << 2) would shift the value of 3 by 2 bits
 
 #### Overloading
@@ -264,7 +264,7 @@
 
 #### Polymorphism
 
-> To take something that already exists and changing it into a different version of the same thing
+> To take something that already exists and changing it into a different version of the same thing  
 > ex: A person can be a friend, child, and employee all at the same time
 
 #### Public / Private / Protected
